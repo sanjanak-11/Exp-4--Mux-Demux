@@ -18,10 +18,7 @@ Boolean Functions
 
 ```
 ## **Testbench Program
-
-
-
-## Truth Table// gedit tb4.v
+// gedit tb4.v
 module tb4;
     reg  A, B, S, D;
     wire Y;
@@ -67,6 +64,9 @@ module tb4;
         #10 $finish;
     end
 endmodule
+```
+
+## Truth Table
 
 ### 2:1 Multiplexer
 
